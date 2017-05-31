@@ -63,7 +63,8 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
-    <Compile Include="FixtureManagement\FreshFixtures.cs" />
+    <Compile Include="FixtureManagement\PersistentFreshFixtureTests.cs" />
+    <Compile Include="FixtureManagement\TransientFreshFixtureTests.cs" />
     <Compile Include="FixtureManagement\TestHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -2,7 +2,7 @@
 
 namespace TestPatterns.FixtureManagement
 {
-    public class FreshFixtures
+    public class TransientFreshFixtureTests
     {
         [Fact]
         public void InlineSetup()
