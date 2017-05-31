@@ -49,6 +49,16 @@ namespace TestPatterns.FixtureManagement
             Assert.False(result);
         }
 
+        [Fact]
+        public void TestHelperCreationMethod()
+        {
+            var c = TestHelper.CreateValidC();
+
+            bool result = c.IsValid();
+
+            Assert.True(result);
+        }
+
         private static C CreateCWithInvalidName()
         {
             var c = CreateValidC();
